@@ -1,4 +1,5 @@
 
+//Async_fifo_design_code
 module fifo_async (full_o,empty_o,rdata_o,wr_error_o,rd_error_o,wr_clk_i,rd_clk_i,rst_i,wdata_i,wr_valid_i,rd_valid_i);
 parameter SIZE=128;
 parameter WIDTH=8;
